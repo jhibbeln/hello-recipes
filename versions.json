@@ -1,5 +1,9 @@
 {
-  "hello/bundle": {
-    "versions": ["1.0"]
+  "recipes": {
+    "hello/bundle": {
+      "1.0": {
+        "manifest": "repo/hello/bundle/1.0/manifest.json"
+      }
+    }
   }
 }
