@@ -1,0 +1,15 @@
+{
+  "manifests": {
+    "hello/bundle": {
+      "manifest": {
+        "bundles": {
+          "Hello\\Bundle\\HelloBundle": ["all"]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        }
+      },
+      "ref": "b9ae559b9ae559b9ae559b9ae559b9ae559b9ae"
+    }
+  }
+}
