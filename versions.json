@@ -2,9 +2,10 @@
   "manifests": [],
   "recipes": {
     "hello/bundle": {
-      "versions": ["1.0"],
-      "1.0": {
-        "manifest": "repo/hello/bundle/1.0/manifest.json"
+      "versions": {
+        "1.0": {
+          "manifest": "repo/hello/bundle/1.0/manifest.json"
+        }
       }
     }
   }
