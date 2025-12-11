@@ -8,7 +8,7 @@
   "is_contrib": true,
   "_links": {
     "repository": "jhibbeln.github.io/hello-recipes",
-    "origin_template": "{package}:{version}@jhibbeln.github.io/hello-recipes:main",
+    "origin_template": "{package}:{version}@jhibbeln.github.io/hello-recipes",
     "recipe_template": "https://jhibbeln.github.io/hello-recipes/{package_dotted}.{version}.json"
   }
 }
