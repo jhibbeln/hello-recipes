@@ -7,6 +7,17 @@
         },
         "copy-from-recipe": {
           "config/": "%CONFIG_DIR%"
+        },
+        "files": {
+          "config/packages/hello_file.yaml": {
+            "contents": [
+              "hello_bundle:",
+              "    enabled: true",
+              "    message: \"Hello from your Flex recipe!\"",
+              ""
+            ],
+            "executable": false
+          }
         }
       },
       "ref": "b9ae559b9ae559b9ae559b9ae559b9ae559b9ae"
